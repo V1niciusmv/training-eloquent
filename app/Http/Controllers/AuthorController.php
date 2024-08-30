@@ -30,7 +30,6 @@ class AuthorController extends Controller
         return redirect()->route('authors.index')->with('sucess', 'Autor criando com sucesso!');
     }
 
-    
     // Função para atualizar um autor no banco de dados
     public function update(Request $request, $id)
     {
